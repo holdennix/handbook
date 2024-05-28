@@ -35,7 +35,7 @@ collections:
 
 # Site information
 
-title:            'Open Grants'
-url:              https://ogrants.org
+#title:            'Open Grants'
+#url:              https://ogrants.org
 github:
-  repo:           https://github.com/ogrants/ogrants
+  repo:           https://github.com/holdennix/handbook
