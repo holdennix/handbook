@@ -15,11 +15,11 @@ $$
 
 ## Introduction
 
-We will use the following set up as our basis for understanding the simple motion of an object in one dimension:
+We will use the following setup as our basis for understanding the simple motion of an object in one dimension:
 
 ![Ball sitting at 0 on x-axis](./figures/still_ball.jpg)
 
-The ball at the center can roll in either the $+x$ or the $-x$ direction. Lets see how we can describe this motion. First we will define the position of the ball, $x$, as a function of time, $t$. For a stationary ball:
+The ball at the center can roll in either the $+x$ or the $-x$ direction. Lets see how we can describe this motion. First, we will define the position of the ball, $x$, as a function of time, $t$. For a stationary ball:
 
 $$
 \begin{equation}
@@ -27,22 +27,22 @@ $$
 \end{equation}
 $$
 
-where $x_0$ is some arbitary value. In our figure, $x_0=0$ because the ball is at $x=0$. We change $x$ to $\vec{x}$ because it is a vector. That is, it has both a magnitude and direction. It's magnitude is the distance from the origin, and its direction will be positive or negative.
+where $x_0$ is some arbitrary value. In our figure, $x_0=0$ because the ball is at $x=0$. We change $x$ to $\vec{x}$ because it is a vector. That is, it has both a magnitude and direction. Its magnitude is the distance from the origin, and its direction will be positive or negative.
 
 ## Velocity
 
-This equation is not very useful because it tells us nothing about how the ball might move. Lets now say that the ball is moving at a constant _speed_ in the $x$ _direction_. We call this new vector velocity and denote it is a $\vec{v}$. Because $\vec{v}$ is constant, we can write a similar equation to our constant position:
+This equation is not very useful because it tells us nothing about how the ball might move. Lets now say that the ball is moving at a constant _speed_ in the $x$ _direction_. We call this new vector velocity and denote it as a $\vec{v}$. Because $\vec{v}$ is constant, we can write a similar equation to our constant position:
 
 $$
 \begin{equation}
 	\vec{v}(t) = k
 \end{equation}
 $$
-Now that the ball is moving, position is no longer constant. There are two ways to think about how position might change.
+Now that the ball is moving, the position is no longer constant. There are two ways to think about how position might change.
 
 ### Dimensional Analysis
 
-This is the simpler of the two methods. We know that velocity is how position changes over time, so we give it a unit of meters per second, or $\frac{m}{s}$. You might be more familiar with a velocity unit of miles or kilometers per hour. You can convert $m/s$ to these units. We know that position has a unit of meters. So, to get from velocity to position, it follows that we multiply by time to just get distance. Now our velocity equation looks like:
+This is the simplest of the two methods. We know that velocity is how position changes over time, so we give it a unit of meters per second, or $\frac{m}{s}$. You might be more familiar with a velocity unit of miles or kilometers per hour. You can convert $m/s$ to these units. We know that position has a unit of meters. So, to get from velocity to position, it follows that we multiply by time to just get distance. Now our velocity equation looks like this:
 
 $$
 \begin{equation}
@@ -53,7 +53,7 @@ We add $x_0$ because our $\vec{v}t$ term only gives us how position changes, not
 
 ### Calculus
 
-If you know calculus, this is an easier method of finding equations of motion. If velocity is how position is changing over time, then we can say that:
+If you know calculus, this is an easier method of finding equations of motion. If velocity is how the position changes over time, then we can say that:
 
 $$
 \begin{equation}
@@ -80,7 +80,7 @@ add figure with v vs t and x vs t
 
 ## Acceleration
 
-Just as we said position can change over time, so can velocity. We call this acceleration. When you press the gas pedal on your car, you are increasing the speed you are travelling at, and therefore accelerating the car. Acceleration has units of meters per second, per second, or $\frac{m}{s^2}$.
+Just as we said position can change over time, so can velocity. We call this acceleration. When you press the gas pedal on your car, you are increasing the speed you are traveling at, and therefore accelerating the car. Acceleration has units of meters per second, per second, or $\frac{m}{s^2}$.
 For now, we will always assume a constant acceleration.
 
 $$
@@ -88,7 +88,7 @@ $$
 	\vec{a}(t) = \vec{a_0}
 \end{equation}
 $$
-Similar to how adding a velocity changed position, adding an acceleration changes our velocity equation. We can use a similar method of dimensional analysis, or say that acceleration is the derivative of velocity to find that $\vec{v}$ is now:
+Similar to how adding a velocity changes position, adding an acceleration changes our velocity equation. We can use a similar method of dimensional analysis, or say that acceleration is the derivative of velocity to find that $\vec{v}$ is now:
 
 $$
 \begin{equation}
