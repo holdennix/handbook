@@ -22,7 +22,7 @@ We will use the following setup as our basis for understanding the simple motion
 
 The ball at the center can roll in either the $+x$ or the $-x$ direction. Lets see how we can describe this motion. First, we will define the position of the ball, $x$, as a function of time, $t$. For a stationary ball:
 
-$$ \vec{x}(t) = x_0 $$
+$$ \vec{x}(t) = \vec{x}_0 $$
 
 where $x_0$ is some arbitrary value. In our figure, $x_0=0$ because the ball is at $x=0$. We change $x$ to $\vec{x}$ because it is a vector. That is, it has both a magnitude and direction. Its magnitude is the distance from the origin, and its direction will be positive or negative.
 
@@ -30,7 +30,7 @@ where $x_0$ is some arbitrary value. In our figure, $x_0=0$ because the ball is 
 
 This equation is not very useful because it tells us nothing about how the ball might move. Lets now say that the ball is moving at a constant _speed_ in the $x$ _direction_. We call this new vector velocity and denote it as a $\vec{v}$. Because $\vec{v}$ is constant, we can write a similar equation to our constant position:
 
-$$ \vec{v}(t) = k $$
+$$ \vec{v}(t) = \vec{v}_0 $$
 
 Now that the ball is moving, the position is no longer constant. There are two ways to think about how position might change.
 
@@ -54,7 +54,7 @@ $$ \vec{x}(t) = \int\vec{v}(t)dt $$
 
 And by still following Equation 2 where velocity is constant, this is a relatively simple integral that gives us:
 
-$$ \vec{x}(t) = \vec{v}t + \vec{x_0} $$
+$$ \vec{x}(t) = \vec{v}t + \vec{x}_0 $$
 
 ### Velocity vs. Position
 
@@ -65,12 +65,12 @@ add figure with v vs t and x vs t
 Just as we said position can change over time, so can velocity. We call this acceleration. When you press the gas pedal on your car, you are increasing the speed you are traveling at, and therefore accelerating the car. Acceleration has units of meters per second, per second, or $\frac{m}{s^2}$.
 For now, we will always assume a constant acceleration.
 
-$$ \vec{a}(t) = \vec{a_0} $$
+$$ \vec{a}(t) = \vec{a}_0 $$
 
 Similar to how adding a velocity changes position, adding an acceleration changes our velocity equation. We can use a similar method of dimensional analysis, or say that acceleration is the derivative of velocity to find that $\vec{v}$ is now:
 
-$$ \vec{v}(t) = \vec{a}t + \vec{v_0} $$
+$$ \vec{v}(t) = \vec{a}t + \vec{v}_0 $$
 
 To find our position equations with an acceleration present we can integrate acceleration twice. There are methods of deriving this equation without calculus, however they are much more tedious.
 
-$$ \vec{x}(t) = \int\int\vec{a}(t)dt = \int(\vec{a_0}t + \vec{v_0})dt = \frac{1}{2}\vec{a}t^2 + \vec{v_0}t + \vec{x_0} $$
+$$ \vec{x}(t) = \int\int\vec{a}(t)dt = \int(\vec{a}_0t + \vec{v}_0)dt = \frac{1}{2}\vec{a}t^2 + \vec{v}_0t + \vec{x}_0 $$
