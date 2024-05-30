@@ -7,6 +7,7 @@ title: 1D Motion
 # One Dimensional Motion
 
 ## TLDR
+
 $$ a(t) = a $$
 
 $$ v(t) = at + v_0 $$
