@@ -45,6 +45,10 @@ html {
   }
 }
 
+.MathJax .mtext, .MathJax .mi, .MathJax .mn, .MathJax .mo, .MathJax .mspace, .MathJax .mfrac {
+  color: inherit !important;
+}
+
 
 /*
  * Sidebar
