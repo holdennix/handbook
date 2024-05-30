@@ -7,11 +7,9 @@ title: 1D Motion
 # One Dimensional Motion
 
 ## TLDR
-$$
-a(t) = a \newline
-v(t) = at + v_0 \newline
-x(t) = \frac{1}{2}at^2 + v_0t + x_0
-$$
+$$ a(t) = a $$
+$$ v(t) = at + v_0 $$
+$$ x(t) = \frac{1}{2}at^2 + v_0t + x_0 $$
 
 ## Introduction
 
@@ -21,11 +19,7 @@ We will use the following setup as our basis for understanding the simple motion
 
 The ball at the center can roll in either the $+x$ or the $-x$ direction. Lets see how we can describe this motion. First, we will define the position of the ball, $x$, as a function of time, $t$. For a stationary ball:
 
-$$
-\begin{equation}
-	\vec{x}(t) = x_0
-\end{equation}
-$$
+$$ \vec{x}(t) = x_0 $$
 
 where $x_0$ is some arbitrary value. In our figure, $x_0=0$ because the ball is at $x=0$. We change $x$ to $\vec{x}$ because it is a vector. That is, it has both a magnitude and direction. Its magnitude is the distance from the origin, and its direction will be positive or negative.
 
